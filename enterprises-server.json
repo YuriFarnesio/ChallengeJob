@@ -5,7 +5,7 @@
       "name": "Sirius Vila Bastos",
       "status": "RELEASE",
       "purpose": "HOME",
-      "ri_number": 123321,
+      "ri_number": "123321",
       "address": {
         "street": "Rua Saint Clair Dôco",
         "number": "339",

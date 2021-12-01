@@ -60,14 +60,15 @@ Para consulta do CEP utilizei a API pública [ViaCEP](https://viacep.com.br/)
 - [x] Deletar Empreendimento
 - [x] Styled-components para construção do layout
 - [x] Responsivo
-- [x] Subir no github, ou bitbucket e afins..
+- [x] Subir no github, ou bitbucket e afins
 
 ### Extras
 
 - [x] Utilizar o getServerSideProps
 - [x] utilizar o axios
-- [x] Filtrar pelo nome do empreendimento.
-- [x] Paginação.
+- [x] Filtrar pelo nome do empreendimento
+- [x] Paginação
+- [x] Utilizar React Toastify
 
 ## 🔖 Template
 

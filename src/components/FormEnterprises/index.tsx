@@ -29,6 +29,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
   const [name, setName] = useState('');
   const [status, setStatus] = useState('');
   const [purpose, setPurpose] = useState('');
+  const [riNumber, setRiNumber] = useState('');
   const [cep, setCep] = useState('');
   const [cepIsCorrect, setCepIsCorrect] = useState(false);
   const [number, setNumber] = useState('');
@@ -42,6 +43,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
             setName(result.data.name);
             setStatus(result.data.status);
             setPurpose(result.data.purpose);
+            setRiNumber(result.data.ri_number);
             setCep(result.data.address.cep);
             setNumber(result.data.address.number);
             setAddress({
@@ -62,7 +64,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
     };
 
     loadData();
-  }, []);  // Busca os dados quando editando
+  }, [id, router]);  // Busca os dados quando editando
 
   useEffect(() => {
     async function handleSearchCep() {
@@ -106,7 +108,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
             name,
             status,
             purpose,
-            ri_number: 123321,
+            ri_number: riNumber,
             address: {
               street: address.logradouro,
               number,
@@ -153,7 +155,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
         name,
         status,
         purpose,
-        ri_number: 123321,
+        ri_number: riNumber,
         address: {
           street: address.logradouro,
           number,
@@ -188,6 +190,15 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
     <Form onSubmit={id ? handleEdit : handleCreate}>
       <Container>
         <h3>Informações</h3>
+
+        <InputContent>
+          <input
+            placeholder="Número de inscrição"
+            value={riNumber}
+            required={true}
+            onChange={event => setRiNumber(event.target.value)}
+          />
+        </InputContent>
 
         <InputContent>
           <select
@@ -262,7 +273,7 @@ export function FormEnterprises({ id }: FormEnterprisesProps) {
           // className={`footer ${searchText != '' || loadButtonDisabled ? 'disabled' : ''}`}
           className={`footer`}
         >
-          Cadastrar
+          {id ? "Editar" : "Cadastrar"}
         </ButtonSubmit>
       </Footer>
     </Form>
