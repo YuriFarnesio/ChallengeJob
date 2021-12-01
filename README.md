@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="ChallengeJob App" src="https://user-images.githubusercontent.com/45167583/144250379-6566dd96-2f85-46b9-b499-894961a4a82b.png" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-iniciar">Como iniciar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-template">Template</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licenca">Licença</a>
+</p>
 
-First, run the development server:
+## 🧪 Tecnologias
+
+This project was developed using the following technologies:
+
+- [NextJs](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+
+## 🚀 Como iniciar
+
+Siga os passos abaixo
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o projeto
+$ git clone https://github.com/YuriFarnesio/ChallengeJob.git
+
+# Acesse o projeto
+$ cd ChallengeJob
+
+# Instale as dependências
+$ yarn
+
+# Rode a Fake API
+$ yarn server # The Fake API roda na porta 3001
+
+# Rode o projeto
+$ yarn dev # O projeto roda na porta 3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Projeto
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Nosso desafio consiste em o usuário ter uma lista de empreendimentos cadastrados. Nesse site há a possibilidade do usuário listar os empreendimentos, criar novos empreendimentos, editar empreendimento, e apagar empreendimento.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Extras: É possível também filtrar pelo nome, e ter paginação com limitação de 10 empreendimentos para cada clique em "carregar mais".
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Os dados são servidos via um Fake api que esta nesse repositório(enterprises-server).
 
-## Learn More
+Para consulta do CEP utilizei a API pública [ViaCEP](https://viacep.com.br/)
 
-To learn more about Next.js, take a look at the following resources:
+### Criar uma aplicação NextJS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Rodar na web
+- [x] Utilizar Typescript
+- [x] Listar Empreendimentos
+- [x] Criar Empreendimento
+- [x] Editar Empreendimento
+- [x] Deletar Empreendimento
+- [x] Styled-components para construção do layout
+- [x] Responsivo
+- [x] Subir no github, ou bitbucket e afins..
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Extras
 
-## Deploy on Vercel
+- [x] Utilizar o getServerSideProps
+- [x] utilizar o axios
+- [x] Filtrar pelo nome do empreendimento.
+- [x] Paginação.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔖 Template
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Você pode ver o template do projeto nos links a seguir:
+
+- [Desafio](https://github.com/MatheusSfalsin/ChallengeJob/blob/main/README.md)
+- [FIGMA do Projeto](https://www.figma.com/file/8MFTHBKNLmMVNCedgukVzZ/Desafio?node-id=0%3A1)
+
+## 📝 Licença
+
+Esse projeto está licenciado sob a Licença MIT.
+
+<hr />
+<p>Por Yuri Farnesio :wave: <a href="https://linktr.ee/YuriFarnesio">Minhas redes!</a></p>

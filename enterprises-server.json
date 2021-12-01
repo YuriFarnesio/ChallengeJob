@@ -1,0 +1,214 @@
+{
+  "enterprises": [
+    {
+      "id": "PA01",
+      "name": "Sirius Vila Bastos",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": 123321,
+      "address": {
+        "street": "Rua Saint Clair Dôco",
+        "number": "339",
+        "district": "Marília",
+        "city": "Lagoa da Prata",
+        "state": "MG",
+        "cep": "35592262"
+      }
+    },
+    {
+      "id": "PA02",
+      "name": "Moriah Ipiranga",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "321123",
+      "address": {
+        "street": "Rua Lucinda Ferreira",
+        "number": "173",
+        "district": "Ipiranga",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA03",
+      "name": "Sirius Campinas",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "987654",
+      "address": {
+        "street": "Av. Aquidabã",
+        "number": "280",
+        "district": "Zona Heteleira Aquidabã",
+        "city": "Campinas",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA04",
+      "name": "Sirius Vila Bastos",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "123321",
+      "address": {
+        "district": "Vila Bastos",
+        "city": "Santo André",
+        "street": "Rua Doutor Messuti",
+        "state": "SP",
+        "number": "339",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA05",
+      "name": "Moriah Ipiranga",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "321123",
+      "address": {
+        "street": "Rua Lucinda Ferreira",
+        "number": "173",
+        "district": "Ipiranga",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA06",
+      "name": "Sirius Campinas",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "987654",
+      "address": {
+        "street": "Av. Aquidabã",
+        "number": "280",
+        "district": "Zona Heteleira Aquidabã",
+        "city": "Campinas",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA07",
+      "name": "Sirius Vila Bastos",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "123321",
+      "address": {
+        "district": "Vila Bastos",
+        "city": "Santo André",
+        "street": "Rua Doutor Messuti",
+        "state": "SP",
+        "number": "339",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA08",
+      "name": "Moriah Ipiranga",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "321123",
+      "address": {
+        "street": "Rua Lucinda Ferreira",
+        "number": "173",
+        "district": "Ipiranga",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA09",
+      "name": "Sirius Campinas",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "987654",
+      "address": {
+        "street": "Av. Aquidabã",
+        "number": "280",
+        "district": "Zona Heteleira Aquidabã",
+        "city": "Campinas",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA10",
+      "name": "Sirius Vila Bastos",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "123321",
+      "address": {
+        "district": "Vila Bastos",
+        "city": "Santo André",
+        "street": "Rua Doutor Messuti",
+        "state": "SP",
+        "number": "339",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA12",
+      "name": "Moriah Ipiranga",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "321123",
+      "address": {
+        "street": "Rua Lucinda Ferreira",
+        "number": "173",
+        "district": "Ipiranga",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA13",
+      "name": "Sirius Campinas",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "987654",
+      "address": {
+        "street": "Av. Aquidabã",
+        "number": "280",
+        "district": "Zona Heteleira Aquidabã",
+        "city": "Campinas",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA14",
+      "name": "Sirius Vila Bastos",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "123321",
+      "address": {
+        "district": "Vila Bastos",
+        "city": "Santo André",
+        "street": "Rua Doutor Messuti",
+        "state": "SP",
+        "number": "339",
+        "cep": "60000000"
+      }
+    },
+    {
+      "id": "PA15",
+      "name": "Moriah Ipiranga",
+      "status": "RELEASE",
+      "purpose": "HOME",
+      "ri_number": "321123",
+      "address": {
+        "street": "Rua Lucinda Ferreira",
+        "number": "173",
+        "district": "Ipiranga",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "60000000"
+      }
+    }
+  ]
+}
